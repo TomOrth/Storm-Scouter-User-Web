@@ -1,0 +1,33 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+.start-form #team{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  height: 50px;
+  
+}
+.start-form #match{
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  height: 50px;
+}
+.start-form #alli{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+} 
+.start-form .sub{
+   position: absolute;
+  left: 395px;
+  top: 350px;
+  color: #FFFFFF;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #FF6600;
+  border: #FF6600
+}
