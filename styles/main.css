@@ -1,33 +1,72 @@
 html, body{
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(orange,red);
+  background: -moz-linear-gradient(orange,red);
+  background: -o-linear-gradient(orange,red);
+  background: linear-gradient(orange,red); 
+}
+.start-form{
+  height: 400px;
+  width: 300px;
+  border: 2px solid #ff0000;
+  position: absolute;
+  left: 35%;
+  background-color: #ffffff
 }
 .start-form #team{
   position: absolute;
-  left: 400px;
-  top: 100px;
+  left: 20%;
+  top: 25%;
   height: 50px;
+  background-color: #ECEFF1;
   
 }
 .start-form #match{
   position: absolute;
-  left: 400px;
-  top: 200px;
+  left: 20%;
+  top: 40%;
   height: 50px;
+  background-color: #ECEFF1;
 }
 .start-form #alli{
   position: absolute;
-  left: 450px;
-  top: 300px;
+  left: 40%;
+  top: 62%;
+  background-color: #ECEFF1;
 } 
 .start-form .sub{
    position: absolute;
-  left: 395px;
-  top: 350px;
+  left: 17%;
+  top: 75%;
   color: #FFFFFF;
   width: 200px;
   height: 50px;
   border-radius: 30px;
   background-color: #FF6600;
   border: #FF6600
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    background: -webkit-linear-gradient(orange,red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+   
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   background: -moz-linear-gradient(orange,red);
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   background: -o-linear-gradient(orange,red);
+   -o-background-clip: text;
+   -o-text-fill-color: transparent;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   background: -ms-linear-gradient(orange,red);
+   -ms-background-clip: text;
+   -ms-text-fill-color: transparent;
 }

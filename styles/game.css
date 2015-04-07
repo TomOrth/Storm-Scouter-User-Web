@@ -1,0 +1,82 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(orange,red);
+  background: -moz-linear-gradient(orange,red);
+  background: -o-linear-gradient(orange,red);
+}
+h2{
+   background: -webkit-linear-gradient(orange,red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background: -moz-linear-gradient(orange,red);
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+   background: -o-linear-gradient(orange,red);
+   -o-background-clip: text;
+   -o-text-fill-color: transparent;
+   background: -ms-linear-gradient(orange,red);
+   -ms-background-clip: text;
+   -ms-text-fill-color: transparent;
+   padding-left: 32%;
+}
+.auto{
+  height: 500px;
+  width: 400px;
+  border: 2px solid red;
+  position: absolute;
+  left: 30%;
+  background-color: #FFFFFF;
+
+}
+.btn1{
+   padding-left: 36%;
+}
+.auto input[type=text]{
+  height: 50px;
+  background-color: #ECEFF1;
+}
+.auto #toteAuto{
+    position: absolute;
+    left: 27%;
+    top: 25%;
+}   
+.auto #conAuto{
+    position: absolute;
+    left: 27%;
+    top: 40%;     
+}   
+.auto #toteStack{
+    position: absolute;
+    left: 27%;
+    top: 55%;
+    
+}
+.auto #conCen{
+    position: absolute;
+    left: 27%;
+    top: 70%;
+    
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    background: -webkit-linear-gradient(orange,red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   background: -moz-linear-gradient(orange,red);
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   background: -o-linear-gradient(orange,red);
+   -o-background-clip: text;
+   -o-text-fill-color: transparent;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   background: -ms-linear-gradient(orange,red);
+   -ms-background-clip: text;
+   -ms-text-fill-color: transparent;
+}

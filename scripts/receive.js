@@ -10,7 +10,7 @@ var start = 0, end = 0;
 function cutter(str, temp){
    var cut = 0;
    cut = str.indexOf("&") + 1;
-   return(str.substring(start, url.length));
+   return(str.substring(cut, url.length));
 }
 
 //Team data
@@ -22,7 +22,7 @@ url = cutter(url, team);
 
 //Match data
 start = url.indexOf("=") + 1;
-end = url.lastIndexOf("&");
+end = url.indexOf("&");
 var match = url.substring(start, end);
 console.log(match);
 url = cutter(url, match);

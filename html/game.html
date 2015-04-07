@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src ="../scripts/receive.js"></script>
+   <script src="../scripts/receive.js"></script>
+   <link rel="stylesheet" href="../styles/check.css"/>
+   <link rel="stylesheet" href="../styles/game.css"/>
 </head>
 <body>
+     <div class="auto">
+           <h2>Autonomous</h2>
+           <div class="btn1">
+                <input type="checkbox" id="robo-auto" value="1"/>
+                <label for="robo-auto">Robot in auto-zone</label>
+           </div>
+               <input type="text" id="toteAuto" placeholder="# of totes in autozone"/>
+               <input type="text" id="conAuto" placeholder="# of containers in autozone"/>
+               <input type="text" id="toteStack" placeholder="# of totes stacked autozone"/> 
+               <input type="text" id="conCen" placeholder="# of containers from center"/>
+           </div> 
 </body>
 </html>
