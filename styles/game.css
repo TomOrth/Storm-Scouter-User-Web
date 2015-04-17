@@ -61,12 +61,20 @@ h2{
     
 }
 .tele{
-  height: 500px;
+  height: 600px;
   width: 400px;
   position: absolute;
   left: 30%;
   top: 90%;
   background-color: #FFFFFF;
+}
+.can{
+  height: 400px;
+  width: 70px;
+  position: absolute;
+  top: 17.9%;
+  left: 60%;
+  background-color: #FFFFFF;  
 }
 .tele h2{
   padding-left: 40%;
@@ -74,11 +82,29 @@ h2{
 .left{
   padding-left: 20%; 
 }
+.right{
+  padding-left: 80%;
+}
 .left-nood{
   padding-left: 18.5%;
 } 
 .tote{
   padding-top: 10%;
+}
+.space{
+  padding-bottom: 57%;
+}
+button{
+   background-image: -moz-linear-gradient(top,orange,red);
+   background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+   background-image: -webkit-linear-gradient(top,orange,red);
+   background-image: -o-linear-gradient(top,orange,red);
+   background-image: linear-gradient(to bottom,orange,red); 
+}  
+#sub{
+   position: absolute;
+   left: 42%;
+   top: 90%;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     background: -webkit-linear-gradient(orange,red);
