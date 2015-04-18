@@ -2,6 +2,7 @@
 <html>
 <head>
    <script src="../scripts/receive.js"></script>
+   <script src="../scripts/game.js"></script>
    <link rel="stylesheet" href="../styles/check.css"/>
    <link rel="stylesheet" href="../styles/game.css"/>
 </head>
@@ -32,15 +33,15 @@
                    <label for="t3">Tote level 3</label>
                  </div>
                  <div class="left tote" id="tote4"/>
-                   <input type="checkbox" id="td4"/>
+                   <input type="checkbox" id="t4"/>
                    <label for="td4">Tote level 4</label>
                  </div>
                  <div class="left tote" id="tote5"/>
-                   <input type="checkbox" id="td5"/>
+                   <input type="checkbox" id="t5"/>
                    <label for="td5">Tote level 5</label>
                  </div>
                  <div class="left tote" id="tote6"/>
-                   <input type="checkbox" id="td6"/>
+                   <input type="checkbox" id="t6"/>
                    <label for="td6">Tote level 6</label>
                  </div>
                  <div class="left-nood tote" id="noodCan"/>
@@ -64,10 +65,6 @@
                      <input type="checkbox" id="c4"/>
                      <label for="c4">Can level 4</label>
                    </div>
-                   <div class="space" id="can4">
-                     <input type="checkbox" id="c4"/>
-                     <label for="c4">Can level 4</label>
-                   </div> 
                    <div class="space" id="can5">
                      <input type="checkbox" id="c5"/>
                      <label for="c5">Can level 5</label>
@@ -77,7 +74,7 @@
                      <label for="c6">Can level 6</label>
                    </div>
                 </div>
-               <button id="sub">Submit</button>       
+               <button id="sub" onClick="mainTele()">Submit</button>       
            </div> 
 </body>
 </html>
