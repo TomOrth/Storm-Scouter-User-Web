@@ -34,19 +34,19 @@ function mainTele(){
    var ca6 = document.getElementById('c6');
    var nC = document.getElementById('nCan');
    //Set the values
-   t1 = isTrue(to1.checked);
-   t2 = isTrue(to2.checked);
-   t3 = isTrue(to3.checked);
-   t4 = isTrue(to4.checked);
-   t5 = isTrue(to5.checked);
-   t6 = isTrue(to6.checked);
-   c1 = isTrue(ca1.checked);
-   c2 = isTrue(ca2.checked);
-   c3 = isTrue(ca3.checked);
-   c4 = isTrue(ca4.checked);
-   c5 = isTrue(ca5.checked);
-   c6 = isTrue(ca6.checked);
-   nic = isTrue(nC.checked);
+   t1 += isTrue(to1.checked);
+   t2 += isTrue(to2.checked);
+   t3 += isTrue(to3.checked);
+   t4 += isTrue(to4.checked);
+   t5 += isTrue(to5.checked);
+   t6 += isTrue(to6.checked);
+   c1 += isTrue(ca1.checked);
+   c2 += isTrue(ca2.checked);
+   c3 += isTrue(ca3.checked);
+   c4 += isTrue(ca4.checked);
+   c5 += isTrue(ca5.checked);
+   c6 += isTrue(ca6.checked);
+   nic += isTrue(nC.checked);
    
    //Set them back to unchecked
    to1.checked = false;
@@ -120,5 +120,9 @@ function reset(){
    tsa.value = "";
    cCen.value = "";
 }
-
+function backToMain(){
+   var m = confirm("Return to main screen?");
+   if(m){
+   location.replace("main.html");
+}
 }
