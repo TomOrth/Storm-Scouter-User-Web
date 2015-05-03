@@ -106,6 +106,42 @@ button{
    left: 42%;
    top: 90%;
 }
+  
+.coopEnd{
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  top: 193%;
+  background-color: #FFFFFF;
+} 
+.coopEnd #titleHead{
+  padding-left: 30%; 
+}
+.coop{
+   padding-left: 4%;
+   display: inline;
+}  
+.coopEnd #notes{
+   padding-left: 30%;
+   padding-top: 20%;
+}
+.coopEnd #trouble{
+    padding-top: 10%;
+    padding-left: 34%;
+}
+.coopEnd .holder{
+    padding-top: 5%;
+    padding-left: 35%;
+}
+#qrcode{
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  left: 30%;
+  top: 250%;
+  background-color: #FFFFFF;
+} 
 ::-webkit-input-placeholder { /* WebKit browsers */
     background: -webkit-linear-gradient(orange,red);
    -webkit-background-clip: text;

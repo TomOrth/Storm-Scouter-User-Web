@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <script src="../scripts/receive.js"></script>
+    <script src="../scripts/receive.js"></script>
    <script src="../scripts/game.js"></script>
+   <script src="../scripts/jquery-1.11.2.js"></script>
+   <script src="../scripts/jquery.qrcode.js"></script>
+   <script src="../scripts/qrcode.js"></script>
+   <script src="../scripts/jquery.qrcode.min.js"></script>
+   <script src="../scripts/qr.js"></script>
    <link rel="stylesheet" href="../styles/check.css"/>
    <link rel="stylesheet" href="../styles/game.css"/>
 </head>
@@ -34,15 +39,15 @@
                  </div>
                  <div class="left tote" id="tote4"/>
                    <input type="checkbox" id="t4"/>
-                   <label for="td4">Tote level 4</label>
+                   <label for="t4">Tote level 4</label>
                  </div>
                  <div class="left tote" id="tote5"/>
                    <input type="checkbox" id="t5"/>
-                   <label for="td5">Tote level 5</label>
+                   <label for="t5">Tote level 5</label>
                  </div>
                  <div class="left tote" id="tote6"/>
                    <input type="checkbox" id="t6"/>
-                   <label for="td6">Tote level 6</label>
+                   <label for="t6">Tote level 6</label>
                  </div>
                  <div class="left-nood tote" id="noodCan"/>
                    <input type="checkbox" id="nCan"/>
@@ -75,6 +80,36 @@
                    </div>
                 </div>
                <button id="sub" onClick="mainTele()">Submit</button>       
-           </div> 
+           </div>
+           <div class="coopEnd">
+               <h2 id="titleHead">Co-op and Notes</h2>
+		<div class="coop">
+		     <input type="checkbox" id="co1"/>
+                     <label for="co1">Co-op Level 1</label>
+                </div>
+                <div class="coop">
+		     <input type="checkbox" id="co2"/>
+                     <label for="co2">Co-op Level 2</label>
+                </div>
+                <div class="coop">
+		     <input type="checkbox" id="co3"/>
+                     <label for="co3">Co-op Level 3</label>
+                </div>
+                <div class="coop">
+		     <input type="checkbox" id="co4"/>
+                     <label for="co4">Co-op Level 4</label>
+                </div>
+                <div id="notes">
+                <textarea id="notesBox" placeholder="Notes go here"></textarea>
+                </div>
+                <div id="trouble">
+                <input type="checkbox" id="troub"/>
+                <label for="troub">Trouble over noodles</label>
+                </div>
+                <div class="holder">
+                <button id="submit">Make QRCode</button>
+                </div>  
+           </div>
+              <div id="qrcode"></div>
 </body>
 </html>
