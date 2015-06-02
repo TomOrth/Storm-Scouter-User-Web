@@ -40,23 +40,23 @@ h2{
 }
 .auto #toteAuto{
     position: absolute;
-    left: 27%;
+    left: 29%;
     top: 25%;
 }   
 .auto #conAuto{
     position: absolute;
-    left: 27%;
+    left: 29%;
     top: 40%;     
 }   
 .auto #toteStack{
     position: absolute;
-    left: 27%;
+    left: 29%;
     top: 55%;
     
 }
 .auto #conCen{
     position: absolute;
-    left: 27%;
+    left: 29%;
     top: 70%;
     
 }
@@ -116,23 +116,23 @@ button{
   background-color: #FFFFFF;
 } 
 .coopEnd #titleHead{
-  padding-left: 30%; 
+  padding-left: 26%; 
 }
 .coop{
    padding-left: 4%;
    display: inline;
 }  
 .coopEnd #notes{
-   padding-left: 30%;
+   padding-left: 25%;
    padding-top: 20%;
 }
 .coopEnd #trouble{
     padding-top: 10%;
-    padding-left: 34%;
+    padding-left: 33%;
 }
 .coopEnd .holder{
     padding-top: 5%;
-    padding-left: 25%;
+    padding-left: 22%;
 }
 #qrcode{
   height: 350px;
