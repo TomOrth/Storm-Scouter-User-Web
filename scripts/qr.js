@@ -1,3 +1,11 @@
+//String to number function
+function stn(e){
+   if(e === "Red"){
+      return 1
+   }
+   return 0
+}
+
 function reset(){
    var rA = document.getElementById('robo-auto');
    var tA = document.getElementById('toteAuto');
@@ -115,7 +123,7 @@ $(document).ready(function(){
    //resets values
    reset();
    //Final qr string
-   var value = String(t) + "," + String(m) + "," + String(a) + "," + String(roboAuto) + "," + String(taz) + "," + String(caz) + "," + String(tsaz) + "," +
+   var value = String(t) + "," + String(m) + "," + String(stn(a)) + "," + String(roboAuto) + "," + String(taz) + "," + String(caz) + "," + String(tsaz) + "," +
                String(cc) + "," + String(t1) + "," + String(t2) + "," + String(t3) + "," + String(t4) + "," + String(t5) + "," + String(t6) + "," + 
                String(c1) + "," + String(c2) + "," + String(c3) + "," + String(c4) + "," + String(c5) + "," + String(c6) + "," + String(nic) + "," + String(co1) + 
                "," + String(co2) + "," + String(co3) + "," + String(co4) + "," + String(notes) + ":";
